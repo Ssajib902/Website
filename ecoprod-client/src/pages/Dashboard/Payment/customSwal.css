@@ -1,0 +1,35 @@
+.custom-popup {
+    background: #f9f9f9;
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    padding: 10px;
+    width: 350px;
+
+  }
+  
+  .custom-title {
+    color: #333;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+  }
+  
+  .custom-text {
+    color: #555;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+  }
+  
+  .custom-confirm-button {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+  }
+  
+  .custom-cancel-button {
+    background-color: #FF5722 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+  }
+  

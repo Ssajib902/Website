@@ -1,0 +1,12 @@
+.mySwiper .swiper-pagination-bullet {
+    width: 30px;
+    height: 25px;
+    color: red;
+    margin-top: 50px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Add gap between items and pagination */
+}

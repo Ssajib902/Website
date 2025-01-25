@@ -1,0 +1,23 @@
+/* autoScrolling.css */
+
+/* Keyframe animation for infinite scrolling */
+@keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Applying the marquee animation to the container */
+  .animate-marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .animate-marquee > div {
+    margin-right: 2rem; /* Adds space between each item */
+  }
+  
